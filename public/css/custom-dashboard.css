@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../font/fontawesome-webfont.eot?v=4.6.3');
+	src: url('../font/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+		url('../font/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+		url('../font/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+		url('../font/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+		url('../font/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{font-family:'SDF';
+	src:url('../font/IRANSansLight.woff') format('woff'),
+		url('../font/IRANSansLight.ttf') format('truetype');
+	font-weight:normal}
+body{
+	font-family: SDF , 'WMitra';
+	background-color: #f4f4f4 !important;
+}
+.container-table {
+	display: table;
+	height: 100%;
+	margin-top: 5px;
+
+}
+.box-body{
+	overflow: auto !important;
+}
+.vertical-center-row {
+	display: table-cell;
+	vertical-align: middle;
+}
+.login-box{
+	background-color: #ffffff;
+	padding: 20px;
+}
+.login-box img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.help-icon{
+	color: #00a7d0;
+	font-size: 20px;
+}
+.check-icon{
+	color: #00a65a;
+	font-size: 20px;
+}
+.check-icon{
+	color: #00a65a;
+	font-size: 20px;
+}
+.hourglass-icon{
+	color: #db8b0b;
+	font-size: 20px;
+}
+.user-times-icon{
+	color: #001f3f;
+	font-size: 20px;
+}
+.check-square-o-icon{
+	color: #00b3ee;
+	font-size: 20px;
+}
+
+.times-icon{
+	color: #9f191f;
+	font-size: 20px;
+}
+.icon-left-center{
+	position: absolute;
+	left: 10px;
+}
+.progress-dots {
+	border-radius: 1em;
+	background: #737373;
+	height: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+.progress-dot {
+	position: absolute;
+	border-radius: 5em;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-top: -8px;
+	background-color: #337ab7;
+	font-size: 12px;
+}
+.progress-dot-green {
+	background-color: #00aa10;
+}
+
+.progress-start {
+	right: 18px;
+}
+
+.progress-label {
+	transform-origin: left top 0;
+	position: relative;
+	top: -2em;
+	width: 200px;
+	text-align: center;
+	margin-right: -100px;
+	right: 50%;
+	font-size: 120%;
+	display: block;
+}
+
+.progress-dots .progress-bar {
+	text-align: left;
+	background-color: #337ab7;
+}
+
+.progress-bar .progress-dot {
+	margin-right: -10px;
+}
+
+.progress-bar-disabled {
+	background: transparent !important;
+}
+
+.progress-bar-disabled .progress-dot {
+	background: #737373;
+}
+
+@media (max-width:860px) {
+	.progress-dots {
+		width: 94%;
+	}
+	.progress-dots .progress-bar:last-child .progress-label {}
+	.progress-bar-active .hidden-xs {}
+}

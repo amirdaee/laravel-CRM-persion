@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../font/fontawesome-webfont.eot?v=4.6.3');
+	src: url('../font/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'),
+	url('../font/fontawesome-webfont.woff2?v=4.6.3') format('woff2'),
+	url('../font/fontawesome-webfont.woff?v=4.6.3') format('woff'),
+	url('../font/fontawesome-webfont.ttf?v=4.6.3') format('truetype'),
+	url('../font/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{font-family:'SDF';
+	src:url('../font/IRANSansLight.woff') format('woff'),
+	url('../font/IRANSansLight.ttf') format('truetype');
+	font-weight:normal}
+body{
+	font-family: SDF , 'WMitra';
+	background-color: #E8E8E8 !important;
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.container-table {
+	display: table;
+	height: 100%;
+	margin-top: 5px;
+
+}
+.box-body{
+	overflow: auto !important;
+}
+.vertical-center-row {
+	display: table-cell;
+
+}
+.login-box{
+	background-color: #ffffff;
+	padding: 20px;
+}
+.login-box img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.help-icon{
+	color: #00a7d0;
+	font-size: 20px;
+}
+.check-icon{
+	color: #00a65a;
+	font-size: 20px;
+}
+.check-icon{
+	color: #00a65a;
+	font-size: 20px;
+}
+.hourglass-icon{
+	color: #db8b0b;
+	font-size: 20px;
+}
+.user-times-icon{
+	color: #001f3f;
+	font-size: 20px;
+}
+.check-square-o-icon{
+	color: #00b3ee;
+	font-size: 20px;
+}
+
+.times-icon{
+	color: #9f191f;
+	font-size: 20px;
+}
