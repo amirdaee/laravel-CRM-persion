@@ -9,11 +9,6 @@ Laravel-CRM-persion is a new customer relationship management system (CRM) for p
 License:
 
 
-
-amir daee
-email: amir_daee@yahoo.com
-tel: +989156246268
-
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
